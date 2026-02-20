@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Mungase | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="hvr-underline-from-center">Home</a></li>
+            <li><a href="#about" class="hvr-underline-from-center">About</a></li>
+            <li><a href="#experience" class="hvr-underline-from-center">Experience</a></li>
+            <li><a href="#projects" class="hvr-underline-from-center">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="flip-left" data-aos-duration="1000">
+            <h1>Hi, I'm <span class="gradient-text">Ajay Mungase</span></h1>
+            <p class="hero-subtitle">Aspiring Full Stack Java Development</p>
+            <!-- <p class="hero-subtitle second-line">Full-time Full Stack Developer & Cyber Security Researcher</p> -->
+            <p class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://en.wikipedia.org/wiki/Pune" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Pune, MH</a>
+            </p>
+            
+            <div class="social-links">
+                <a href="https://github.com/ajaymungase" target="_blank" class="social-icon hvr-float">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ajaymungase" target="_blank" class="social-icon hvr-float">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-icon hvr-float" onclick="copyEmail(event)">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button scroll-link">View My Work</a>
+                <a href="./assets/Ajay Mungase_Java.pdf" class="cta-button" target="_blank">Download My CV</a>
+                <!-- <a href="./assets/Ajay Mungase_Java.pdf" class="cta-button scroll-link" >Download My CV</a> -->
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="card about-card" data-aos="flip-right" data-aos-duration="1000">
+            <h2 class="section-title">About Me</h2>
+            <p> I’m a passionate Java Developer with a strong foundation in Core Java, Spring Boot, Hibernate, React.Js, Web Technologies and SQL. I enjoy building scalable, efficient, and user-friendly solutions while continuously learning and exploring new technologies. My interests extend to Data Structures & Algorithms, Full Stack Development.
+            </p>
+            <p>
+                And building web applications to working with Arduino projects, I enjoy exploring both software and hardware aspects of technology. I'm constantly learning and challenging myself with new projects that combine my interests in development and security.
+            </p>
+        </div>
+        <div class="card technologies-card" data-aos="flip-left" data-aos-duration="1000">
+            <h2 class="section-title">Technologies</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="assets/java.svg" alt="Java">
+                    <span>Java</span>
+                    <div class="tech-description">
+                        Advanced and Secured programming language for webite development, and software development.
+                    </div>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/springboot.svg" alt="SpringBoot">
+                    <span>SpringBoot</span>
+                    <div class="tech-description">
+                        open-source tool that makes it easier to use Java-based frameworks to create microservices and web apps.
+                    </div>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/js.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                    <div class="tech-description">
+                        Programming language for creating interactive and dynamic web applications.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="assets/html.svg" alt="HTML5">
+                    <span>HTML5</span>
+                    <div class="tech-description">
+                        Markup language for structuring and presenting web content.
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="assets/css.svg" alt="CSS3">
+                    <span>CSS3</span>
+                    <div class="tech-description">
+                        Style sheet language for designing and formatting web pages.
+                    </div>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/reactjs.svg" alt="React">
+                    <span>React.Js</span>
+                    <div class="tech-description">
+                        React is a declarative and efficient JavaScript library for building user interfaces using reusable components.
+                    </div>
+                </div>
+
+                 <div class="tech-item">
+                    <img src="assets\sql.svg" alt="SQL">
+                    <span>MySQL</span>
+                    <div class="tech-description">
+                        Powerful programming language for system programming and performance-critical applications.
+                    </div>
+                </div>
+
+                <div class="tech-item">
+                    <img src="assets/git.svg" alt="Git">
+                    <span>Git</span>
+                    <div class="tech-description">
+                        Version control system for tracking code changes and collaborating with teams.
+                    </div>
+                </div>
+                
+                <div class="tech-item">
+                    <img src="assets/postman.svg" alt="Postman">
+                    <span>Postman</span>
+                    <div class="tech-description">
+                        Platform for developing, shipping, and running applications in containers.
+                    </div>
+                </div>
+                <!-- <div class="tech-item">
+                    <img src="assets/ard.svg" alt="Arduino">
+                    <span>Arduino</span>
+                    <div class="tech-description">
+                        Open-source electronics platform for building interactive hardware projects.
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="card main-card">
+            <h2 class="section-title" data-aos="flip-up" data-aos-duration="800">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100" onclick="window.open('https://github.com/ajaymungase/RecruitEase---HR-Portal-for-Institute', '_blank')">
+                    <img src="assets/project1.png" alt="RecruitEase Logo" class="project-logo">
+                    <h3>RecruitEase - HR Portal for Institute</h3>
+                    <p>RecruitEase is a web-based recruitment management system that streamlines job postings, candidate applications, and hiring workflows for organizations.</p>
+                    <a href="https://github.com/ajaymungase/RecruitEase---HR-Portal-for-Institute" target="_blank" class="project-link">
+                        View Project
+                    </a>
+                </div>
+                <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200" onclick="window.open('https://github.com/ajaymungase/Hospital-CareTrack-System-', '_blank')">
+                    <img src="assets/project2.png" alt="CareTrack Logo" class="project-logo">
+                    <h3>Hospital CareTrack System</h3>
+                    <p>Hospital CareTrack is a healthcare management system designed to streamline patient records, appointments, and hospital operations efficiently.</p>
+                    <a href="https://github.com/ajaymungase/Hospital-CareTrack-System-" target="_blank" class="project-link">
+                        View Project
+                    </a>
+                </div>
+                <div class="project-card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300" onclick="window.open('https://ajaymungase.github.io/SmartLearn/', '_blank')">
+                    <img src="assets/project3.png" alt="SmartLearn Logo" class="project-logo">
+                    <h3>SmartLearn</h3>
+                    <p>SmartLearn is a responsive front-end web application that showcases an online learning platform with interactive course displays and modern UI design.</p>
+                    <a href="https://ajaymungase.github.io/SmartLearn/" target="_blank" class="project-link">
+                        View Project
+                    </a>
+                </div>
+                <!-- <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400" onclick="window.open('https://rylena.github.io/Elliot/', '_blank')">
+                    <img src="assets/elliot.png" alt="Elliot Logo" class="project-logo">
+                    <h3>Elliot</h3>
+                    <p>Elliot is an AI Linux assistant that converts plain English tasks into accurate terminal commands. It executes commands, monitors output, and provides real-time feedback to simplify terminal use.</p>
+                    <a href="https://rylena.github.io/Elliot/" target="_blank" class="project-link">
+                        View Project
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="card experience-card">
+            <h2 class="section-title" data-aos="flip-up" data-aos-duration="800">Experience / Professional Training</h2>
+            <div class="experience-grid">
+                <div class="experience-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="experience-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Jr. Software Engineer Intern</h3>
+                        <h4>Cravita Technologies Pvt. Ltd., Pune.</h4>
+                        <span class="experience-date">July 2025 - Present</span>
+                        <p>Currently working as a Software Development Intern at Cravita Technologies Pvt. Ltd., Pune, contributing to full-stack application development using Java, Spring Boot, and modern web technologies. Actively involved in designing, developing, and testing scalable web solutions in a collaborative team environment.</p>
+                    </div>
+                </div>
+                <div class="experience-item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="experience-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Java Full-Stack Development</h3>
+                        <h4>Fortune Cloud Technologies Pvt. Ltd., Pune</h4>
+                        <span class="experience-date">Aug 2025 - Feb 2026</span>
+                        <p>Designed and implemented end-to-end applications using Spring Boot and React.js. Developed secure, scalable RESTful APIs, integrating robust back-end and front-end systems. Optimized database performance with advanced MySQL and PostgreSQL configurations.</p>
+                    </div>
+                </div>
+                <div class="experience-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="experience-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Full-Stack Java</h3>
+                        <h4>Symbiosis Skills & Professional University (with Capgemini) Pune</h4>
+                        <span class="experience-date">Dec 2024 - May 2025</span>
+                        <p>Successfully completed the Full Stack Java program at Symbiosis Skills & Professional University in collaboration with Capgemini, gaining hands-on experience in Java, Spring Boot, SQL, and modern web technologies. Developed real-world applications following industry best practices and software development standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="toast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span>Email copied to clipboard!</span>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, 
+            offset: 200 
+        });
+    </script>
+    <script src="main.js"></script>
+    <footer>
+        <p>© 2026 Ajay Mungase. Made with <i class="fas fa-heart"></i></p>
+    </footer>
+</body>
+</html>     
