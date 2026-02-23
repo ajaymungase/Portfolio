@@ -1,4 +1,4 @@
-# 💼 Ajay Mungase – Portfolio
+#  Ajay Mungase – Portfolio
 
 Welcome to my personal portfolio website!  
 This portfolio showcases my projects, technical skills, and experience as a Full Stack Java Developer.
