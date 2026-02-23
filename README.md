@@ -58,7 +58,6 @@ Portfolio/
 - Component-Based Architecture
 - Smooth Scrolling UI
 - Clean and Professional Layout
-- Optimized Performance with Vite
 
 ---
 
